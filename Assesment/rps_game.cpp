@@ -93,14 +93,14 @@ public:
                          << endl
                          << "Draw";
                }
-               else if (choice == 1 && random == 2 || choice == 1 && random == 3) // user winning condition
+               else if (choice == 1 && random == 3 || choice == 3 && random == 1) // user winning condition
                {
                     cout << endl
                          << endl
                          << name << " Wins the Round";
                     user_score++;
                }
-               else if (choice == 3 && random == 2)
+               else if (choice == 2 && random == 1)
                {
                     cout << endl
                          << endl
@@ -121,7 +121,7 @@ public:
                          << "Computer wins the Round";
                     computer_score++;
                }
-               else if (random == 2 && choice == 1 || random == 2 && choice == 3)
+               else if (random == 1 && choice == 2 || random == 2 && choice == 3)
                {
                     cout << endl
                          << endl
